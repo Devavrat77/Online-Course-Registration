@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enrollment Queries</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/spacelab/bootstrap.min.css" />
+    <style>
+        .shadow-mid {
+            box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body class="p-4 bg-light">
+    <div class="container">
+
+        <div class="card shadow-mid border-0 mb-4">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0">Queries</h4>
+            </div>
+            <div class="card-body">
+
+                <h5 class="text-secondary">Courses Enrolled by a Student</h5>
+                <div class="row g-3 align-items-center mb-3">
+                    <div class="col-auto">
+                        <label for="studentSelect" class="col-form-label">Select Student:</label>
+                    </div>
+                    <div class="col-md-4">
+                        <select id="studentSelect" class="form-select"></select>
+                    </div>
+                    <div class="col-auto">
+                        <button onclick="showCoursesForStudent()" class="btn btn-success">Show Courses</button>
+                    </div>
+                </div>
+                <ul id="studentCoursesList" class="list-group mb-4"></ul>
+
+                <h5 class="text-secondary">Students Enrolled in a Course</h5>
+                <div class="row g-3 align-items-center mb-3">
+                    <div class="col-auto">
+                        <label for="courseSelect" class="col-form-label">Select Course:</label>
+                    </div>
+                    <div class="col-md-4">
+                        <select id="courseSelect" class="form-select"></select>
+                    </div>
+                    <div class="col-auto">
+                        <button onclick="showStudentsForCourse()" class="btn btn-success">Show Students</button>
+                    </div>
+                </div>
+                <ul id="courseStudentsList" class="list-group"></ul>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/queries.js"></script>
+</body>
+
+</html>

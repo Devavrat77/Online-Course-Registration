@@ -1,0 +1,96 @@
+<!-- Student Dashboard (student_dashboard.html)
+<h2 class="mb-4">Student Dashboard</h2>
+
+My Courses
+<div class="card mb-4 shadow-sm">
+  <div class="card-header"><strong>My Enrolled Courses</strong></div>
+  <div class="card-body table-responsive">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Course</th>
+          <th>Description</th>
+          <th>Instructor</th>
+          <th>Enrollment Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Python Programming</td>
+          <td>Beginner to Intermediate Python</td>
+          <td>Mr. Arjun Rao</td>
+          <td>2025-03-10</td>
+        </tr>
+        <tr>
+          <td>Web Development</td>
+          <td>HTML, CSS, JavaScript Basics</td>
+          <td>Ms. Nisha K</td>
+          <td>2025-03-22</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+Instructor Info
+<div class="card mb-4 shadow-sm">
+  <div class="card-header"><strong>Instructors</strong></div>
+  <div class="card-body">
+    <ul>
+      <li><strong>Mr. Arjun Rao</strong> – Python, Data Science</li>
+      <li><strong>Ms. Nisha K</strong> – Web Development, UI/UX</li>
+    </ul>
+  </div>
+</div>
+
+Course Enrollment Quick Access
+<div class="card shadow-sm mb-4">
+  <div class="card-header"><strong>Enroll in New Course</strong></div>
+  <div class="card-body text-center">
+    <a href="#" class="btn btn-primary">Browse Courses</a>
+  </div>
+</div> -->
+
+<h2 class="mb-4 text-primary">Welcome, <span id="studentName">Student</span>!</h2>
+
+<div class="row mb-4">
+  <div class="col-md-4">
+    <div class="card text-center shadow-sm border-0">
+      <div class="card-body">
+        <h6 class="text-muted">Your Enrolled Courses</h6>
+        <h3 id="enrolledCourses" class="fw-bold text-success">0</h3>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card text-center shadow-sm border-0">
+      <div class="card-body">
+        <h6 class="text-muted">Total Available Courses</h6>
+        <h3 id="totalCourses" class="fw-bold text-info">0</h3>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card text-center shadow-sm border-0">
+      <div class="card-body">
+        <h6 class="text-muted">Total Instructors</h6>
+        <h3 id="totalInstructors" class="fw-bold text-warning">0</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card shadow-sm border-0 mb-4">
+  <div class="card-header bg-light">
+    <strong>Quick Actions</strong>
+  </div>
+  <div class="card-body">
+    <ul class="list-unstyled">
+      <li><a href="#" class="text-decoration-none">📚 View Enrolled Courses</a></li>
+      <li><a href="#" class="text-decoration-none">📝 Enroll New Course</a></li>
+      <li><a href="#" class="text-decoration-none">👨‍🏫 View Instructors</a></li>
+    </ul>
+  </div>
+</div>
+
+<script src="js/student_dashboard.js"></script>

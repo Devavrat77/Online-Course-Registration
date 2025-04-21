@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cities</title>
+
+    <style>
+        div#output {
+            border-radius: 3px;
+            background-color: grey;
+            margin: 2px;
+            /* display: flex; */
+            padding: 10px;
+        }
+
+        input {
+            margin: 5px;
+            width: 20%;
+        }
+
+        button {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Cities</h3>
+
+    <div>
+        <form id="cities">
+            <input type="text" name="city" id="city" placeholder="City Name">
+            <input type="text" name="newCity" id="newCity" placeholder="New Name (for update only)">
+
+            <br>
+            <button type="submit" onclick="addCity()" id="addBtn">Add City</button>
+            <button type="submit" onclick="updateCity()" id="updateBtn">update City</button>
+            <button type="submit" onclick="deleteCity()" id="DeleteBtn">Delete City</button>
+        </form>
+    </div>
+
+    <div id="output">
+        some text
+    </div>
+
+
+</body>
+
+<script src="js\index.js"></script>
+
+</html>

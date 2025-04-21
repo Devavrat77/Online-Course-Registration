@@ -1,0 +1,34 @@
+/* .sidebar .nav-link:hover {
+    background-color: #495057;
+    border-radius: 5px;
+  }
+   */
+
+
+body {
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  border-right: 1px solid #dee2e6;
+}
+
+.sidebar .nav-link {
+  padding: 10px 15px;
+}
+
+#main-content {
+  flex-grow: 1;
+  padding: 30px;
+}
+.form-container {
+  max-width: 90vw;
+  margin: auto;
+  /* background-color: white; */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+}

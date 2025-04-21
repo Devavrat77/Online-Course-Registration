@@ -1,0 +1,697 @@
+{
+  "Users": [
+    {
+      "name": "pratik",
+      "email": "pratik@gmail.com",
+      "password": "pra@1234A",
+      "phone": "9876543210",
+      "usertype": "student",
+      "id": "793d"
+    },
+    {
+      "name": "Riya",
+      "email": "riya@gmail.com",
+      "password": "riya@123",
+      "phone": 8765432109,
+      "usertype": "admin",
+      "id": "ed40"
+    },
+    {
+      "name": "Raj",
+      "email": "raj@gmail.com",
+      "password": "raj@123",
+      "phone": 7654321098,
+      "usertype": "student",
+      "id": "8fe2"
+    },
+    {
+      "name": "Neha",
+      "email": "neha@gmail.com",
+      "password": "neha@123",
+      "phone": 9988776655,
+      "usertype": "student",
+      "id": "c351"
+    },
+    {
+      "name": "Amit",
+      "email": "amit@gmail.com",
+      "password": "amit@123",
+      "phone": 9123456780,
+      "usertype": "student",
+      "id": "7155"
+    },
+    {
+      "name": "Priya",
+      "email": "priya@gmail.com",
+      "password": "priya@123",
+      "phone": 9212345678,
+      "usertype": "student",
+      "id": "f95a"
+    },
+    {
+      "name": "Vikas",
+      "email": "vikas@gmail.com",
+      "password": "vikas@123",
+      "phone": 9345678901,
+      "usertype": "student",
+      "id": "5a39"
+    },
+    {
+      "name": "Sana",
+      "email": "sana@gmail.com",
+      "password": "sana@123",
+      "phone": 9456789012,
+      "usertype": "student",
+      "id": "a234"
+    },
+    {
+      "name": "John",
+      "email": "john@gmail.com",
+      "password": "john@123",
+      "phone": 9567890123,
+      "usertype": "student",
+      "id": "691b"
+    },
+    {
+      "name": "Kiran",
+      "email": "kiran@gmail.com",
+      "password": "kiran@123",
+      "phone": 9678901234,
+      "usertype": "student",
+      "id": "0957"
+    },
+    {
+      "name": "Sneha",
+      "email": "sneha@gmail.com",
+      "password": "sneha@123",
+      "phone": 9789012345,
+      "usertype": "student",
+      "id": "b613"
+    },
+    {
+      "name": "Arjun",
+      "email": "arjun@gmail.com",
+      "password": "arjun@123",
+      "phone": 9890123456,
+      "usertype": "student",
+      "id": "8040"
+    },
+    {
+      "name": "Simran",
+      "email": "simran@gmail.com",
+      "password": "simran@123",
+      "phone": 9981234567,
+      "usertype": "student",
+      "id": "7d5a"
+    },
+    {
+      "name": "Mehul",
+      "email": "mehul@gmail.com",
+      "password": "mehul@123",
+      "phone": 9876123456,
+      "usertype": "student",
+      "id": "b6b6"
+    },
+    {
+      "name": "Aisha",
+      "email": "aisha@gmail.com",
+      "password": "aisha@123",
+      "phone": 9765432101,
+      "usertype": "student",
+      "id": "96c8"
+    },
+    {
+      "name": "Zara",
+      "email": "zara@gmail.com",
+      "password": "zara@123",
+      "phone": 9654321098,
+      "usertype": "student",
+      "id": "3748"
+    },
+    {
+      "name": "Dev",
+      "email": "dev@gmail.com",
+      "password": "dev@123",
+      "phone": 9543210987,
+      "usertype": "student",
+      "id": "9366"
+    },
+    {
+      "name": "Rohit",
+      "email": "rohit@gmail.com",
+      "password": "rohit@123",
+      "phone": 9432109876,
+      "usertype": "student",
+      "id": "2567"
+    },
+    {
+      "name": "Ananya",
+      "email": "ananya@gmail.com",
+      "password": "ananya@123",
+      "phone": 9321098765,
+      "usertype": "student",
+      "id": "2b4d"
+    },
+    {
+      "name": "Pooja",
+      "email": "pooja@gmail.com",
+      "password": "pooja@123",
+      "phone": 9210987654,
+      "usertype": "student",
+      "id": "361e"
+    },
+    {
+      "name": "Yash",
+      "email": "yash@gmail.com",
+      "password": "yash@123",
+      "phone": 9112345678,
+      "usertype": "student",
+      "id": "5f63"
+    },
+    {
+      "name": "Alok",
+      "email": "alok@gmail.com",
+      "password": "alok@123",
+      "phone": 9012345678,
+      "usertype": "student",
+      "id": "aaf1"
+    },
+    {
+      "name": "Meera",
+      "email": "meera@gmail.com",
+      "password": "meera@123",
+      "phone": 9901234567,
+      "usertype": "student",
+      "id": "181f"
+    },
+    {
+      "name": "Karthik",
+      "email": "karthik@gmail.com",
+      "password": "karthik@123",
+      "phone": 9801234567,
+      "usertype": "student",
+      "id": "55f1"
+    },
+    {
+      "name": "Varun",
+      "email": "varun@gmail.com",
+      "password": "varun@123",
+      "phone": 9701234567,
+      "usertype": "student",
+      "id": "956a"
+    },
+    {
+      "name": "Ishita",
+      "email": "ishita@gmail.com",
+      "password": "ishita@123",
+      "phone": 9601234567,
+      "usertype": "student",
+      "id": "d59b"
+    },
+    {
+      "name": "Dhruv",
+      "email": "dhruv@gmail.com",
+      "password": "dhruv@123",
+      "phone": 9501234567,
+      "usertype": "student",
+      "id": "1fb7"
+    },
+    {
+      "name": "Nisha",
+      "email": "nisha@gmail.com",
+      "password": "nisha@123",
+      "phone": 9401234567,
+      "usertype": "student",
+      "id": "2f2f"
+    },
+    {
+      "name": "Tanmay",
+      "email": "tanmay@gmail.com",
+      "password": "tanmay@123",
+      "phone": 9301234567,
+      "usertype": "student",
+      "id": "0bf9"
+    },
+    {
+      "name": "Reena",
+      "email": "reena@gmail.com",
+      "password": "reena@123",
+      "phone": 9201234567,
+      "usertype": "student",
+      "id": "e88e"
+    },
+    {
+      "name": "new",
+      "email": "new@gmail.com",
+      "password": "new@321",
+      "phone": 8695847309,
+      "usertype": "student",
+      "id": "c2f1"
+    },
+    {
+      "name": "afdsaf",
+      "email": "sfjala@gmail.com",
+      "password": "fljejro23jr",
+      "phone": "8473928475",
+      "usertype": "student",
+      "id": "f937"
+    },
+    {
+      "name": "sfdfjwe",
+      "email": "afsdfsa@gmail.com",
+      "password": "sjfljsljeljr3242",
+      "phone": "4875954745",
+      "usertype": "student",
+      "id": "f279"
+    },
+    {
+      "name": "nask32",
+      "email": "pratik283@gmail.com",
+      "password": "Sofwoije#2344",
+      "phone": "9876543837",
+      "usertype": "student",
+      "id": "4525"
+    },
+    {
+      "id": "4f96",
+      "name": "new sample registration",
+      "email": "samplereg123@gmail.com",
+      "password": "Sample@123",
+      "phone": "8796857687"
+    }
+  ],
+  "Courses": [
+    {
+      "coursename": "Data Structures and Algorithms",
+      "description": "Master data structures and problem-solving.",
+      "fees": "6800",
+      "instructorid": "c080",
+      "id": "3d0f"
+    },
+    {
+      "coursename": "Web Development",
+      "description": "Become a full-stack web developer.",
+      "fees": 7000,
+      "id": "32f5",
+      "instructorid": "c171"
+    },
+    {
+      "coursename": "Machine Learning",
+      "description": "Build intelligent systems using ML techniques.",
+      "fees": 12000,
+      "id": "c0ba",
+      "instructorid": "6950"
+    },
+    {
+      "coursename": "Digital Marketing",
+      "description": "Master SEO, SEM, and online ads.",
+      "fees": 4500,
+      "id": "e174",
+      "instructorid": "ffc7"
+    },
+    {
+      "coursename": "Cloud Computing",
+      "description": "Understand cloud architecture & deployment.",
+      "fees": 8000,
+      "id": "1be6",
+      "instructorid": "a856"
+    },
+    {
+      "coursename": "Cybersecurity Basics",
+      "description": "Learn to secure systems and networks.",
+      "fees": 7500,
+      "id": "982d",
+      "instructorid": "e644"
+    },
+    {
+      "coursename": "Mobile App Development",
+      "description": "Create Android and iOS apps.",
+      "fees": 9500,
+      "id": "3f8e",
+      "instructorid": "897f"
+    },
+    {
+      "coursename": "Artificial Intelligence",
+      "description": "Explore AI concepts and applications.",
+      "fees": 14000,
+      "id": "77e8",
+      "instructorid": "1c5d"
+    },
+    {
+      "coursename": "UI/UX Design",
+      "description": "Design attractive and user-friendly interfaces.",
+      "fees": 6000,
+      "id": "6890",
+      "instructorid": "789b"
+    },
+    {
+      "coursename": "Database Management",
+      "description": "Learn SQL and NoSQL databases.",
+      "fees": 5500,
+      "id": "1013",
+      "instructorid": "8568"
+    },
+    {
+      "coursename": "DevOps Fundamentals",
+      "description": "Automate and streamline software delivery.",
+      "fees": 8500,
+      "id": "cfc2",
+      "instructorid": "da80"
+    },
+    {
+      "coursename": "Ml Ops",
+      "description": "Learn to build Ml models and pipeline",
+      "fees": "7874",
+      "instructorid": "a062",
+      "id": "a8e6"
+    }
+  ],
+  "Instructors": [
+    {
+      "name": "Dr. Anil Mehta",
+      "email": "anil.mehta@academy.com",
+      "expertise": "Python Programming",
+      "id": "6c41"
+    },
+    {
+      "name": "Ms. Priyanka Joshi",
+      "email": "priyanka.joshi@academy.com",
+      "expertise": "Web Development",
+      "id": "c171"
+    },
+    {
+      "name": "Mr. Ravi Sharma",
+      "email": "ravi.sharma@academy.com",
+      "expertise": "Machine Learning",
+      "id": "6950"
+    },
+    {
+      "name": "Ms. Rachana Desai",
+      "email": "rachana.desai@academy.com",
+      "expertise": "Digital Marketing",
+      "id": "ffc7"
+    },
+    {
+      "name": "Mr. Alok Gupta",
+      "email": "alok.gupta@academy.com",
+      "expertise": "Cloud Computing",
+      "id": "a856"
+    },
+    {
+      "name": "Dr. Seema Kapoor",
+      "email": "seema.kapoor@academy.com",
+      "expertise": "Cybersecurity Basics",
+      "id": "e644"
+    },
+    {
+      "name": "Mr. Sameer Khan",
+      "email": "sameer.khan@academy.com",
+      "expertise": "Mobile App Development",
+      "id": "897f"
+    },
+    {
+      "name": "Dr. Neeraj Verma",
+      "email": "neeraj.verma@academy.com",
+      "expertise": "Artificial Intelligence",
+      "id": "1c5d"
+    },
+    {
+      "name": "Ms. Swati Choudhary",
+      "email": "swati.choudhary@academy.com",
+      "expertise": "UI/UX Design",
+      "id": "789b"
+    },
+    {
+      "name": "Mr. Rahul Bansal",
+      "email": "rahul.bansal@academy.com",
+      "expertise": "Database Management",
+      "id": "8568"
+    },
+    {
+      "name": "Ms. Kavita Nair",
+      "email": "kavita.nair@academy.com",
+      "expertise": "DevOps Fundamentals",
+      "id": "da80"
+    },
+    {
+      "name": "Dr. Vikram Rao",
+      "email": "vikram.rao@academy.com",
+      "expertise": "Data Structures and Algorithms",
+      "id": "c080"
+    },
+    {
+      "name": "Mr. Aditya Malhotra",
+      "email": "aditya.malhotra@academy.com",
+      "expertise": "React.js",
+      "id": "d547"
+    },
+    {
+      "name": "Ms. Poonam Singh",
+      "email": "poonam.singh@academy.com",
+      "expertise": "Java Programming",
+      "id": "b06c"
+    },
+    {
+      "name": "Devavrat Patil",
+      "email": "devavratptl23@gmail.com",
+      "expertise": "Data Science",
+      "id": "a062"
+    }
+  ],
+  "Enrollments": [
+    {
+      "id": "63a3",
+      "userid": "793d",
+      "courseid": "2662",
+      "enrollmentdate": "2023-08-01"
+    },
+    {
+      "id": "952d",
+      "userid": "8fe2",
+      "courseid": "3d0f",
+      "enrollmentdate": "2023-08-18"
+    },
+    {
+      "id": "12b4",
+      "userid": "c351",
+      "courseid": "32f5",
+      "enrollmentdate": "2023-08-04"
+    },
+    {
+      "id": "2e92",
+      "userid": "7155",
+      "courseid": "c0ba",
+      "enrollmentdate": "2023-08-05"
+    },
+    {
+      "id": "8f01",
+      "userid": "f95a",
+      "courseid": "e174",
+      "enrollmentdate": "2023-08-06"
+    },
+    {
+      "id": "6a12",
+      "userid": "5a39",
+      "courseid": "1be6",
+      "enrollmentdate": "2023-08-07"
+    },
+    {
+      "id": "4e67",
+      "userid": "a234",
+      "courseid": "982d",
+      "enrollmentdate": "2023-08-08"
+    },
+    {
+      "id": "7c45",
+      "userid": "691b",
+      "courseid": "3f8e",
+      "enrollmentdate": "2023-08-09"
+    },
+    {
+      "id": "ae92",
+      "userid": "0957",
+      "courseid": "77e8",
+      "enrollmentdate": "2023-08-10"
+    },
+    {
+      "id": "cd34",
+      "userid": "b613",
+      "courseid": "6890",
+      "enrollmentdate": "2023-08-11"
+    },
+    {
+      "id": "3d5b",
+      "userid": "8040",
+      "courseid": "1013",
+      "enrollmentdate": "2023-08-12"
+    },
+    {
+      "id": "8ac9",
+      "userid": "7d5a",
+      "courseid": "cfc2",
+      "enrollmentdate": "2023-08-13"
+    },
+    {
+      "id": "4fa1",
+      "userid": "b6b6",
+      "courseid": "a8e6",
+      "enrollmentdate": "2023-08-14"
+    },
+    {
+      "id": "1a3e",
+      "userid": "96c8",
+      "courseid": "2662",
+      "enrollmentdate": "2023-08-15"
+    },
+    {
+      "id": "6cb7",
+      "userid": "3748",
+      "courseid": "3d0f",
+      "enrollmentdate": "2023-08-16"
+    },
+    {
+      "id": "d2f8",
+      "userid": "9366",
+      "courseid": "32f5",
+      "enrollmentdate": "2023-08-17"
+    },
+    {
+      "id": "b7f1",
+      "userid": "2567",
+      "courseid": "c0ba",
+      "enrollmentdate": "2023-08-18"
+    },
+    {
+      "id": "1e74",
+      "userid": "2b4d",
+      "courseid": "e174",
+      "enrollmentdate": "2023-08-19"
+    },
+    {
+      "id": "83a5",
+      "userid": "361e",
+      "courseid": "1be6",
+      "enrollmentdate": "2023-08-20"
+    },
+    {
+      "id": "ae29",
+      "userid": "5f63",
+      "courseid": "982d",
+      "enrollmentdate": "2023-08-21"
+    },
+    {
+      "id": "ec58",
+      "userid": "aaf1",
+      "courseid": "3f8e",
+      "enrollmentdate": "2023-08-22"
+    },
+    {
+      "id": "649b",
+      "userid": "181f",
+      "courseid": "77e8",
+      "enrollmentdate": "2023-08-23"
+    },
+    {
+      "id": "73a0",
+      "userid": "55f1",
+      "courseid": "6890",
+      "enrollmentdate": "2023-08-24"
+    },
+    {
+      "id": "fc40",
+      "userid": "956a",
+      "courseid": "1013",
+      "enrollmentdate": "2023-08-25"
+    },
+    {
+      "id": "5dc3",
+      "userid": "d59b",
+      "courseid": "cfc2",
+      "enrollmentdate": "2023-08-26"
+    },
+    {
+      "id": "ea79",
+      "userid": "1fb7",
+      "courseid": "a8e6",
+      "enrollmentdate": "2023-08-27"
+    },
+    {
+      "id": "c9b4",
+      "userid": "2f2f",
+      "courseid": "2662",
+      "enrollmentdate": "2023-08-28"
+    },
+    {
+      "id": "91f7",
+      "userid": "0bf9",
+      "courseid": "3d0f",
+      "enrollmentdate": "2023-08-29"
+    },
+    {
+      "id": "6fb1",
+      "userid": "e88e",
+      "courseid": "32f5",
+      "enrollmentdate": "2023-08-30"
+    },
+    {
+      "id": "83b1",
+      "userid": "c2f1",
+      "courseid": "c0ba",
+      "enrollmentdate": "2023-08-31"
+    },
+    {
+      "id": "fd21",
+      "userid": "f937",
+      "courseid": "e174",
+      "enrollmentdate": "2023-09-01"
+    },
+    {
+      "id": "67e3",
+      "userid": "f279",
+      "courseid": "982d",
+      "enrollmentdate": "2023-09-03"
+    },
+    {
+      "id": "8425",
+      "userid": "0bf9",
+      "courseid": "e174",
+      "enrollmentdate": "2025-04-18"
+    },
+    {
+      "id": "b5b3",
+      "userid": "8fe2",
+      "courseid": "1be6",
+      "enrollmentdate": "2025-04-19"
+    },
+    {
+      "id": "f39a",
+      "userid": "8fe2",
+      "courseid": "a8e6",
+      "enrollmentdate": "2025-04-19"
+    },
+    {
+      "id": "f3f6",
+      "userid": "8fe2",
+      "courseid": "32f5",
+      "enrollmentdate": "2025-04-19"
+    },
+    {
+      "id": "3e10",
+      "userid": "0bf9",
+      "courseid": "1be6",
+      "enrollmentdate": "2025-04-19"
+    },
+    {
+      "id": "afe1",
+      "userid": "0bf9",
+      "courseid": "c0ba",
+      "enrollmentdate": "2025-04-20"
+    },
+    {
+      "id": "6d03",
+      "userid": "0bf9",
+      "courseid": "6890",
+      "enrollmentdate": "2025-04-20"
+    }
+  ]
+}

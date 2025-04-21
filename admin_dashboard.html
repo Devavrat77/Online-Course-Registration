@@ -1,0 +1,149 @@
+<!-- Admin Dashboard (admin_dashboard.html)
+<h2 class="mb-4 text-primary">Admin Dashboard</h2>
+
+<div class="row mb-4">
+  <div class="col-md-3">
+    <div class="card text-center shadow-sm border-0">
+      <div class="card-body">
+        <h6 class="text-muted">Total Students</h6>
+        <h3 class="fw-bold text-success">5,252</h3>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card text-center shadow-sm border-0">
+      <div class="card-body">
+        <h6 class="text-muted">Total Courses</h6>
+        <h3 class="fw-bold text-info">120</h3>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card text-center shadow-sm border-0">
+      <div class="card-body">
+        <h6 class="text-muted">Total Instructors</h6>
+        <h3 class="fw-bold text-warning">35</h3>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card text-center shadow-sm border-0">
+      <div class="card-body">
+        <h6 class="text-muted">Enrollments Today</h6>
+        <h3 class="fw-bold text-danger">87</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row mb-4">
+  <div class="col-md-6">
+    <div class="card shadow-sm border-0">
+      <div class="card-header bg-light">
+        <strong>Course Popularity</strong>
+      </div>
+      <div class="card-body text-center text-muted">
+        [ Pie Chart Placeholder ]
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card shadow-sm border-0">
+      <div class="card-header bg-light">
+        <strong>Students per Instructor</strong>
+      </div>
+      <div class="card-body text-center text-muted">
+        [ Bar Chart Placeholder ]
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card shadow-sm border-0 mb-4">
+  <div class="card-header bg-light">
+    <strong>Quick Reports</strong>
+  </div>
+  <div class="card-body">
+    <ul class="list-unstyled">
+      <li><a href="#" class="text-decoration-none">📊 Course-wise Enrollment Report</a></li>
+      <li><a href="#" class="text-decoration-none">📋 Instructor-wise Course List</a></li>
+    </ul>
+  </div>
+</div> -->
+
+
+<h2 class="mb-4 text-primary">Admin Dashboard</h2>
+
+<div class="row mb-4" id="summary-cards">
+  <div class="col-md-3">
+    <div class="card text-center shadow-sm border-0">
+      <div class="card-body">
+        <h6 class="text-muted">Total Students</h6>
+        <h3 id="totalStudents" class="fw-bold text-success">0</h3>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card text-center shadow-sm border-0">
+      <div class="card-body">
+        <h6 class="text-muted">Total Courses</h6>
+        <h3 id="totalCourses" class="fw-bold text-info">0</h3>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card text-center shadow-sm border-0">
+      <div class="card-body">
+        <h6 class="text-muted">Total Instructors</h6>
+        <h3 id="totalInstructors" class="fw-bold text-warning">0</h3>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card text-center shadow-sm border-0">
+      <div class="card-body">
+        <h6 class="text-muted">Total Enrollments</h6>
+        <h3 id="enrollmentsTotal" class="fw-bold text-danger">0</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row mb-4">
+  <div class="col-md-6">
+    <div class="card shadow-sm border-0">
+      <div class="card-header bg-light">
+        <strong>Course Popularity</strong>
+      </div>
+      <div class="card-body">
+        <canvas id="coursePopularityChart"></canvas>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card shadow-sm border-0">
+      <div class="card-header bg-light">
+        <strong>Students per Instructor</strong>
+      </div>
+      <div class="card-body">
+        <canvas id="studentsPerInstructorChart"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card shadow-sm border-0 mb-4">
+  <div class="card-header bg-light">
+    <strong>Quick Reports</strong>
+  </div>
+  <div class="card-body">
+    <ul class="list-unstyled">
+      <li><a href="reports.html" class="text-decoration-none">📊 Course-wise Enrollment Report</a></li>
+      <li><a href="reports.html" class="text-decoration-none">📋 Instructor-wise Course List</a></li>
+    </ul>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/admin_dashboard.js"></script>
+

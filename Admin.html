@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin - Online Course Enrollment System</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/spacelab/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    .sidebar {
+      width: 250px;
+      min-height: 100vh;
+      background-color: #f8f9fa;
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    #main-content {
+      flex-grow: 1;
+      padding: 20px;
+      background: #fff;
+    }
+  </style>
+</head>
+
+<body onload="initPage()">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold text-primary" href="#">Admin</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              <i class="fa fa-user-circle"></i> Admin
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#" onclick="loadPage('admin_profile.html')">Profile</a></li>
+              <li><a class="dropdown-item" href="#" onclick="loadPage('Account_Details.html')">Account Details</a></li>
+              <li><a class="dropdown-item" href="#" onclick="loadPage('Help_Support.html')">Help and Support</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item text-danger" href="#" onclick="logout()">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="d-flex">
+    <div class="sidebar p-3">
+      <h5 class="text-secondary mb-4">Navigation</h5> 
+      <!-- <button class="btn btn-outline-primary me-2" onclick="toggleSidebar()">
+        <i class="fa fa-bars"></i>
+      </button> -->
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2">
+          <a href="#" class="nav-link text-dark" onclick="loadPage('admin_dashboard.html')">
+            <i class="fa fa-chart-line me-2"></i> Dashboard
+          </a>
+        </li>
+        <li class="nav-item mb-2">
+          <a class="nav-link text-dark dropdown-toggle" data-bs-toggle="collapse" href="#menu1">
+            <i class="fa fa-layer-group me-2"></i> Manage
+          </a>
+          <div class="collapse" id="menu1">
+            <ul class="nav flex-column ms-3">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark" onclick="loadPage('courses.html')">
+                  <i class="fa fa-book me-2"></i> Courses
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark" onclick="loadPage('instructors.html')">
+                  <i class="fa fa-chalkboard-teacher me-2"></i> Instructors
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark" onclick="loadPage('student.html')">
+                  <i class="fa fa-user-plus me-2"></i> Student Management
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark" onclick="loadPage('Enrollments.html')">
+                  <i class="fa fa-address-card me-2"></i> Students Enrollment
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark" onclick="loadPage('queries.html')">
+            <i class="fa fa-database me-2"></i> Queries
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark" onclick="loadPage('reports.html')">
+            <i class="fa fa-file-alt me-2"></i> Reports
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark" onclick="loadPage('Help_Support.html')">
+            <i class="fa fa-question-circle me-2"></i> Help
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="main-content">Loading...</div>
+  </div>
+
+  <script>
+
+    function initPage() {
+      isLoggedOut();
+      const savedPage = sessionStorage.getItem("lastPage");
+      if (savedPage) {
+        loadPage(savedPage);
+      } else {
+        loadPage('admin_dashboard.html');
+        sessionStorage.setItem("lastPage", 'admin_dashboard.html');
+      }
+    }
+
+    function loadPage(page) {
+      fetch(`${page}`)
+        .then(response => response.text())
+        .then(data => {
+          const container = document.getElementById('main-content');
+          container.innerHTML = data;
+          const scripts = container.querySelectorAll('script');
+          scripts.forEach(script => {
+            const newScript = document.createElement('script');
+            if (script.src) newScript.src = script.src;
+            else newScript.textContent = script.textContent;
+            document.body.appendChild(newScript);
+            script.remove();
+          });
+          sessionStorage.setItem("lastPage", page);
+        })
+        .catch(err => {
+          document.getElementById('main-content').innerHTML = '<p class="text-danger">Failed to load content.</p>';
+        });
+    }
+
+    function isLoggedOut() {
+      // const userId = sessionStorage.getItem('userId');
+      // const userName = sessionStorage.getItem('userName');
+      // const userType = sessionStorage.getItem('userType');
+      var loggedOut = sessionStorage.getItem('loggedOut');
+      // !userId || !userName || !userType || 
+      if (loggedOut == true) {
+        window.location.href = "login.html";  
+      }
+    }
+    function logout() {
+      sessionStorage.clear();
+      sessionStorage.setItem("loggedOut", true);
+      window.location.href = "login.html";
+    }
+    // function toggleSidebar() {
+    //   document.querySelector('.sidebar').classList.toggle('hidden');
+    // }
+  </script>
+
+</body>
+
+</html>
